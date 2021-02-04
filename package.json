@@ -1,0 +1,27 @@
+{
+  "name": "feastfires",
+  "version": "0.0.1",
+  "description": "A simple application for transforming API data into Ignition configuration.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndouglas/feastfires.git"
+  },
+  "author": "Nathan Douglas <github@tenesm.us>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ndouglas/feastfires/issues"
+  },
+  "homepage": "https://github.com/ndouglas/feastfires#readme"
+}
